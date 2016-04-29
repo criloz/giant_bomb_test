@@ -5,3 +5,26 @@ April 29, 2016 - 04:51:18
 Django version 1.8.4, using settings 'giant_bomb_test.settings'
 Starting development server at http://0.0.0.0:8000/
 Quit the server with CONTROL-C.
+[29/Apr/2016 04:55:43] "GET /api/games/? HTTP/1.1" 200 4518
+[29/Apr/2016 04:55:44] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[29/Apr/2016 04:55:46] "GET /api/games/ HTTP/1.1" 200 4518
+[29/Apr/2016 04:55:50] "GET /api/games/?format=api HTTP/1.1" 200 4573
+[29/Apr/2016 04:55:55] "GET /api/games/?format=json HTTP/1.1" 200 2
+[29/Apr/2016 04:56:07] "GET /api/games/?format=json&search=ninja HTTP/1.1" 500 136800
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2016 - 04:51:37
+Django version 1.8.4, using settings 'giant_bomb_test.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[29/Apr/2016 04:56:26] "GET /api/games/?format=json&search=ninja HTTP/1.1" 200 9678
+[29/Apr/2016 04:56:44] "GET /api/games/?format=json&search=ninja%20mario HTTP/1.1" 200 14215
+[29/Apr/2016 04:57:03] "GET /api/games/?format=json&search=ninja%20Gaiden HTTP/1.1" 200 12848
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2016 - 04:56:22
+Django version 1.8.4, using settings 'giant_bomb_test.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.

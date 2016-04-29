@@ -11,9 +11,7 @@ router = routers.DefaultRouter()
 
 
  
-class GameSerializer(serializers.ModelSerializer):
-    search = serializers.CharField()
-    
+class GameSerializer(serializers.ModelSerializer):    
     class Meta:
         model = Game
         fields = ('name', 'aliases', 'description', 'image_url', 'original_release_date', 'site_detail_url')
